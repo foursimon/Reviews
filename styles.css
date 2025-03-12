@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, Arial;
+}
+
+header{
+    background-color: rgb(94, 231, 249);
+    color:rgb(7, 142, 220);
+    box-sizing: border-box;
+    min-width: 300px;
+    display: flex;
+    flex: initial;
+    margin: 0px 0px 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    box-shadow: 0px 10px 20px #00000075;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container{
+    max-width: 500px;
+    place-items: center;
+    box-shadow: 0px 10px 20px #2c769475;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.img-container #cliente{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+}
+.img-container{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px 500px;
+    box-shadow: 13px -8px #00d5ff;
+}
+.btn-container{
+    margin-top: 20px;
+    place-items: center;
+}
+.btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color:#00c3ff;
+}
+.btn:hover{
+    filter: contrast(2);
+}
+.btn:active{
+    box-shadow: none;
+    filter: none;
+}
+.btn img{
+    width: 30px;
+}
+.next{
+    margin-left: 20px;
+}
+#autor{
+    color:#0022ff
+}
+#funcao{
+    color:#00c3ff
+}
+#analise{
+    color:#00c3ff;
+    margin-top: 10px;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: rgb(12, 0, 46)
+    }
+    header{
+        background-color: rgb(12, 0, 46);
+        color:rgb(78, 157, 248);
+        box-shadow: 0px 10px 20px #2c5294ca;
+    }
+    .img-container{
+        box-shadow: -8px 9px #2f00ff;
+    }
+}
